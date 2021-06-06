@@ -1,0 +1,146 @@
+.health-section .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  // max-width: 1100px;
+  // height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.section-item {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f7cd75;
+  padding: 170px 100px;
+}
+.section-left {
+  width: 100%;
+  max-width: 430px;
+  padding: 30px;
+  // margin-right: 50px;
+  background-color: #f4f1eb;
+}
+.section-right {
+  width: 100%;
+  max-width: 570px;
+  padding: 30px;
+  // margin-left: 50px;
+  background-color: #fff;
+}
+input[type="radio"] {
+  display: none;
+}
+.radio-items {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 58px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.radio:checked + .radio-items {
+  border: 2px solid blue;
+}
+.left-header {
+  display: flex;
+  justify-content: space-between;
+}
+.form-list {
+  height: 470px;
+  overflow: auto;
+}
+.button-item {
+  // border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+.button-items {
+  border: none;
+  cursor: pointer;
+  background-color: #f4f1eb;
+}
+// ********************************** section-right**************************
+
+.section-right-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-heading {
+  font-size: 18px;
+}
+.right-heading-p {
+  font-size: 22px;
+  font-weight: 700;
+}
+.right-header {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: black;
+}
+.right-header-item {
+  margin-top: 0;
+}
+.section-list {
+  height: 420px;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.number {
+  font-weight: 600;
+  color: blue;
+}
+.numbers {
+  color: rgb(34, 255, 34);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1110px) {
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid blue;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .section-item {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-left {
+    width: 100%;
+    max-width: 570px;
+  }
+  .section-right {
+    width: 100%;
+    max-width: 570px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .section-left {
+    width: 240px;
+  }
+  .section-right {
+    width: 240px;
+  }
+}
